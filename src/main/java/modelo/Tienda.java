@@ -4,10 +4,10 @@
  */
 package modelo;
 
-/**
- *
- * @author Elvis
- */
+
 public class Tienda {
+    private String nombre;
+    private String ruc;
+    private String direccion;
     
 }
