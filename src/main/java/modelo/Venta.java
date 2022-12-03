@@ -6,5 +6,7 @@ public class Venta {
     private float total;
     private Date fecha;
     private boolean estado;
+    
+    private Detalle detalle;
 
 }

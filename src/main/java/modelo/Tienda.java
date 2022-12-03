@@ -10,4 +10,17 @@ public class Tienda {
     private String ruc;
     private String direccion;
     
+    private CategoriaArreglo categorias;
+    private PersonaArreglo clientes;
+    
+    
+    public void agregarCliente(Cliente c){
+       clientes.agregarPersona(c);
+    }
+    
+    public void crearCategoria(Categoria cat){
+        categorias.agregar(cat);
+    }
+    
+    
 }
