@@ -12,6 +12,7 @@ public class Tienda {
     
     private CategoriaArreglo categorias;
     private PersonaArreglo clientes;
+    private ProductoArreglo productos;
     
     
     public void agregarCliente(Cliente c){
@@ -20,6 +21,10 @@ public class Tienda {
     
     public void crearCategoria(Categoria cat){
         categorias.agregar(cat);
+    }
+    
+    public void agregarProducto(Producto prod){
+        this.productos.agregar(prod);
     }
     
     
